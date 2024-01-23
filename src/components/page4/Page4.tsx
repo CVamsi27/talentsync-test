@@ -27,7 +27,7 @@ export const Page4 = () => {
             </div>
             <div className="flex justify-between">
               <div className="flex">
-                <Avatar path ={P4i1} />
+                <Avatar path={P4i1} />
                 <div className="ml-2 flex flex-col text-sm justify-between">
                   <div className="font-medium">Sarah Thompson</div>
                   <div className="text-gray-500">Project Manager, Shopify</div>

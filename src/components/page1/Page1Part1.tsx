@@ -25,11 +25,11 @@ export const Page1Part1 = () => {
       </div>
       <div className="flex mt-10 items-center text-sm">
         <div className="flex ml-24 space-x-[-70px]">
-            <Avatar path={P1i11} />
-            <Avatar path={P1i10} />
-            <Avatar path={P1i9} />
-            <Avatar path={P1i8} />
-            <Avatar path={P1i7} />
+          <Avatar path={P1i11} />
+          <Avatar path={P1i10} />
+          <Avatar path={P1i9} />
+          <Avatar path={P1i8} />
+          <Avatar path={P1i7} />
         </div>
         <div className="col-span-4 text-blue-600">
           <div className="flex flex-col ml-12 items-start text-sm">
