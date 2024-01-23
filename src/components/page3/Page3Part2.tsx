@@ -9,7 +9,7 @@ export const Page3Part2 = () => {
       <div className="grid grid-cols-10 mt-16 gap-2">
         <div className="col-span-3 grid grid-rows-2">
           <div className="row-span-1 m-2">
-            <VideoIcon className="text-blue-500 bg-gray-200 rounded-full p-1.5" />
+            <VideoIcon className="h-10 w-10 text-blue-500 bg-gray-200 rounded-full p-2" />
             <div className="mt-4 font-medium text-lg">
               Crystal-clear HD video
             </div>
@@ -19,7 +19,7 @@ export const Page3Part2 = () => {
             </div>
           </div>
           <div className="row-span-1 m-2">
-            <Calendar className="text-blue-500 bg-gray-200 rounded-full p-1.5" />
+            <Calendar className="h-10 w-10 text-blue-500 bg-gray-200 rounded-full p-2" />
             <div className="mt-4 font-medium text-lg">Scheduling made easy</div>
             <div className="mt-1 text-gray-400 text-sm">
               Streamline your agenda with ClearLink&apos;s intuitive scheduling.
@@ -30,7 +30,7 @@ export const Page3Part2 = () => {
         </div>
         <div className="col-span-3 grid grid-rows-2 mr-10">
           <div className="row-span-1 m-2">
-            <AudioLines className="text-blue-500 bg-gray-200 rounded-full p-1.5" />
+            <AudioLines className="h-10 w-10 text-blue-500 bg-gray-200 rounded-full p-2" />
             <div className="mt-4 font-medium text-lg">
               Noise-canceling audio
             </div>
@@ -40,7 +40,7 @@ export const Page3Part2 = () => {
             </div>
           </div>
           <div className="row-span-1 m-2">
-            <Lock className="text-blue-500 bg-gray-200 rounded-full p-1.5" />
+            <Lock className="h-10 w-10 text-blue-500 bg-gray-200 rounded-full p-2" />
             <div className="mt-4 font-medium text-lg">Bank-grade security</div>
             <div className="mt-1 text-gray-400 text-sm">
               Your privacy is our priority with bank-grade security protocols

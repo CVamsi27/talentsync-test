@@ -29,13 +29,15 @@ export const Page4 = () => {
               <div className="flex">
                 <Avatar path={P4i1} />
                 <div className="ml-2 flex flex-col text-sm justify-between">
-                  <div className="font-medium">Sarah Thompson</div>
-                  <div className="text-gray-500">Project Manager, Shopify</div>
+                  <div className="mt-1 font-medium">Sarah Thompson</div>
+                  <div className="mb-1 text-gray-500">
+                    Project Manager, Shopify
+                  </div>
                 </div>
               </div>
-              <div className="flex gap-6 text-blue-500 mr-2">
-                <ArrowLeftIcon className="rounded-full border-2 border-gray-300 bg-white p-1" />
-                <ArrowRightIcon className="rounded-full border-2 border-gray-300 bg-white p-1" />
+              <div className="flex gap-8 text-blue-500 mr-2 items-center">
+                <ArrowLeftIcon className="h-10 w-10 rounded-full border-2 border-gray-300 bg-white p-2" />
+                <ArrowRightIcon className="h-10 w-10 rounded-full border-2 border-gray-300 bg-white p-2" />
               </div>
             </div>
           </div>

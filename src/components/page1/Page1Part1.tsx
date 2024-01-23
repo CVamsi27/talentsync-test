@@ -16,15 +16,15 @@ export const Page1Part1 = () => {
         Experience the future of communication with ClearLink - where
         crystal-clear video conferencing meets unparalleled simplicity.
       </div>
-      <div className="flex gap-3 mt-10 items-center text-sm">
+      <div className="flex gap-3 mt-16 items-center text-sm">
         <div className="bg-blue-600 text-white py-4 px-5 border-2 rounded-full">
           Start your free trial
         </div>
         <Bot className="text-blue-600" />
         <div className="text-blue-600">Discover AI assistant</div>
       </div>
-      <div className="flex mt-10 items-center text-sm">
-        <div className="flex ml-24 space-x-[-70px]">
+      <div className="flex mt-16 items-center text-sm">
+        <div className="flex ml-28 space-x-[-70px]">
           <Avatar path={P1i11} />
           <Avatar path={P1i10} />
           <Avatar path={P1i9} />

@@ -28,7 +28,7 @@ export const Page1Part2 = () => {
       <div className="rounded-md bg-pink-400">
         <Image src={Page1Image6} alt="A" />
       </div>
-      <div className="col-span-3 m-4 flex justify-center">
+      <div className="col-span-3 mx-4 my-2 flex justify-center">
         <div className="rounded-full border-1 bg-white p-2 mx-3 my-2 text-blue-600">
           <Mic />
         </div>
