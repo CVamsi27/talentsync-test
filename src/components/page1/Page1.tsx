@@ -6,8 +6,8 @@ export const Page1 = () => {
   return (
     <MaxWidthWrapper>
       <div className="grid grid-cols-11 mt-28">
-        <Page1Part1/>
-        <Page1Part2/>
+        <Page1Part1 />
+        <Page1Part2 />
       </div>
     </MaxWidthWrapper>
   );

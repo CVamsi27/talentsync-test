@@ -11,11 +11,14 @@ export const Page1Part2 = () => {
         </div>
       ))}
       <div className="col-span-3 m-4 flex justify-center">
-      {Array.from({ length: 6 }).map((_, index) => (
-        <div className="rounded-full border-1 bg-white p-2 mx-3 my-2 text-blue-600" key={index}>
-          <Mic/>
-        </div>
-      ))}
+        {Array.from({ length: 6 }).map((_, index) => (
+          <div
+            className="rounded-full border-1 bg-white p-2 mx-3 my-2 text-blue-600"
+            key={index}
+          >
+            <Mic />
+          </div>
+        ))}
       </div>
     </div>
   );

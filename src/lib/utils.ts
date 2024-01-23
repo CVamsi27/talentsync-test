@@ -6,28 +6,28 @@ import { Marvel } from "@/components/icons/Marvel";
 import { Automatic } from "@/components/icons/Automatic";
 
 export const CompanyNames = [
-    {
-        name: "Shopify",
-        logo: Shopify
-    },
-    {
-        name: "Coinbase",
-        logo: Coinbase
-    },
-    {
-        name: "Dropbox",
-        logo: Dropbox
-    },
-    {
-        name: "Intercom",
-        logo: Intercom
-    },
-    {
-        name: "Marvel",
-        logo: Marvel
-    },
-    {
-        name: "Automatic",
-        logo: Automatic
-    },
-]
+  {
+    name: "Shopify",
+    logo: Shopify,
+  },
+  {
+    name: "Coinbase",
+    logo: Coinbase,
+  },
+  {
+    name: "Dropbox",
+    logo: Dropbox,
+  },
+  {
+    name: "Intercom",
+    logo: Intercom,
+  },
+  {
+    name: "Marvel",
+    logo: Marvel,
+  },
+  {
+    name: "Automatic",
+    logo: Automatic,
+  },
+];

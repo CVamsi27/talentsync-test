@@ -21,7 +21,7 @@ export const Page3Part1 = () => {
           </div>
         </div>
         <div className="col-span-3 space-y-[-70px]">
-          <HandLine/>
+          <HandLine />
         </div>
       </div>
     </MaxWidthWrapper>
