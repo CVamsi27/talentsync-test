@@ -1,10 +1,9 @@
-import Image from "next/image";
-import avatar from "../../../public/images/avatar.png";
+import Image, { StaticImageData } from "next/image";
 
-export const Avatar = ({ index }: { index?: string }) => {
+export const Avatar = ({ index, path }: { index?: string, path: StaticImageData }) => {
   return (
     <div className="rounded-full" key={index}>
-      <Image src={avatar} alt="A" />
+      <Image src={path} alt="A" />
     </div>
   );
 };

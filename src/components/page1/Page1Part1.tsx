@@ -1,6 +1,11 @@
-import { Bot, Star } from "lucide-react";
+import { Bot } from "lucide-react";
 import { Avatar } from "../icons/Avatar";
 import { RatingStars } from "../icons/RatingStars";
+import P1i7 from "../../../public/images/P1i7.png";
+import P1i8 from "../../../public/images/P1i8.png";
+import P1i9 from "../../../public/images/P1i9.png";
+import P1i10 from "../../../public/images/P1i10.png";
+import P1i11 from "../../../public/images/P1i11.png";
 export const Page1Part1 = () => {
   return (
     <div className="flex flex-col col-span-5">
@@ -20,9 +25,11 @@ export const Page1Part1 = () => {
       </div>
       <div className="flex mt-10 items-center text-sm">
         <div className="flex ml-24 space-x-[-70px]">
-          {Array.from({ length: 5 }).map((_, index) => (
-            <Avatar key={index} />
-          ))}
+            <Avatar path={P1i11} />
+            <Avatar path={P1i10} />
+            <Avatar path={P1i9} />
+            <Avatar path={P1i8} />
+            <Avatar path={P1i7} />
         </div>
         <div className="col-span-4 text-blue-600">
           <div className="flex flex-col ml-12 items-start text-sm">

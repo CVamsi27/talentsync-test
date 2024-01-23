@@ -8,6 +8,7 @@ import Page4Image2 from "../../../public/images/Page4Image2.png";
 import Page4Image3 from "../../../public/images/Page4Image3.png";
 import Page4Image4 from "../../../public/images/Page4Image4.png";
 import Page4Image5 from "../../../public/images/Page4Image5.png";
+import P4i1 from "../../../public/images/P4i1.png";
 import Image from "next/image";
 
 export const Page4 = () => {
@@ -26,7 +27,7 @@ export const Page4 = () => {
             </div>
             <div className="flex justify-between">
               <div className="flex">
-                <Avatar />
+                <Avatar path ={P4i1} />
                 <div className="ml-2 flex flex-col text-sm justify-between">
                   <div className="font-medium">Sarah Thompson</div>
                   <div className="text-gray-500">Project Manager, Shopify</div>
